@@ -145,3 +145,4 @@ if __name__ == "__main__":
         print(f"\n\n❌ Configuration annulée")
     except Exception as e:
         print(f"\n❌ Erreur : {e}")
+
