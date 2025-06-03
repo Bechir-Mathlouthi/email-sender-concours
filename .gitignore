@@ -1,0 +1,72 @@
+# Fichiers Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environnements virtuels
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+*.log
+
+# Fichiers sensibles (NE PAS POUSSER)
+config_email_prive.py
+*.backup
+config_backup.py
+
+# Fichiers de données personnelles (à remplacer par l'utilisateur)
+# candidats_selectionnes.xlsx
+
+# PDFs générés (peuvent être volumineux)
+pdf_candidats/*.pdf
+
+# Fichiers temporaires
+*.tmp
+*.temp
+temp/
+tmp/
+
+# Fichiers temporaires Excel
+~$*.xlsx
+~$*.xls
+
+# Logs
+logs/
+*.log
+
+# Fichiers de test
+test_*.py
+*_test.py
